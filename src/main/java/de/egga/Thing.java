@@ -1,7 +1,7 @@
 package de.egga;
 
 public class Thing {
-    public String someThing() {
+    public String greeting() {
         return "hello there";
     }
 }

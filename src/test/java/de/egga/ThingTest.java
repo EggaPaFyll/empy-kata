@@ -8,6 +8,6 @@ public class ThingTest {
 
     @Test
     void name() {
-        assertThat(new Thing().someThing()).isEqualTo("General Kenobi");
+        assertThat(new Thing().greeting()).isEqualTo("General Kenobi");
     }
 }
